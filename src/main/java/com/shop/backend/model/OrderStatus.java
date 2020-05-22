@@ -1,0 +1,6 @@
+package com.shop.backend.model;
+
+
+public enum OrderStatus {
+    AWAITING_PAYMENT, PAYMENT_ACCEPTED, PROCESSING_IN_PROGRESS, SHIPPED, DELIVERED, CANCELED, REFUNDED, PAYMENT_ERROR;
+}

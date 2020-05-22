@@ -2,7 +2,6 @@ package com.shop.backend.service;
 
 import com.shop.backend.model.*;
 import com.shop.backend.repository.CustomerRepository;
-import com.shop.backend.repository.InvoiceRepository;
 import com.shop.backend.repository.OrderRepository;
 import com.shop.backend.repository.PaymentsRepository;
 import org.junit.jupiter.api.Assertions;
@@ -36,8 +35,6 @@ class PaymentServiceTest {
     @Mock
     private OrderRepository orderRepository;
 
-    @Mock
-    private InvoiceRepository invoiceRepository;
 
     private Customer customer = new Customer(1,"UserName",
             "Password","FirstName","LastName",
